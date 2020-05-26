@@ -1,0 +1,1 @@
+该镜像是在alpine最新版本基础上创建的，供aws codebuild做cicd时用的打包镜像，所以包含了aws cli, go sdk等打包golang时需要的运行时环境。
