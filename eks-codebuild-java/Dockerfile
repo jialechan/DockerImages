@@ -5,7 +5,7 @@ ENV KUBECONFIG $HOME/.kube/kubeconfig
 
 RUN \
   mkdir /root/bin /aws && \
-  apk -Uuv add groff less bash python py-pip jq curl docker maven openjdk8 npm && \
+  apk -Uuv add groff less bash python3 py-pip jq curl docker maven openjdk8 npm && \
   pip install --upgrade pip && \
   pip install awscli && \
   apk --purge -v del py-pip && \

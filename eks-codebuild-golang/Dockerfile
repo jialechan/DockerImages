@@ -4,7 +4,7 @@ ENV HOME /root
 ENV KUBECONFIG $HOME/.kube/kubeconfig
 
 RUN \
-  apk -Uuv add groff less bash python py-pip jq curl docker go git && \
+  apk -Uuv add groff less bash python3 py-pip jq curl docker go git && \
   pip install --upgrade pip && \
   pip install awscli && \
   apk --purge -v del py-pip && \
