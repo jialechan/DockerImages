@@ -12,7 +12,7 @@ ADD cwebp /usr/local/bin
 ADD anim_dump /usr/local/bin
 ADD img2webp /usr/local/bin
 
-# download from  https://jaist.dl.sourceforge.net/project/apngdis/2.9/apngdis-2.9-bin-macos.zip
+# download from https://https://master.dl.sourceforge.net/project/apngdis/2.8/apngdis-2.8-bin-linux.zip
 ADD apngdis /usr/local/bin
 ```
 # 创建镜像
